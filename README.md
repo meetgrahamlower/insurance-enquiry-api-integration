@@ -293,6 +293,18 @@ progressing from sales to General Manager.
 The objective is to develop the technical skills
 required to bridge the gap between customers,
 integration partners and software engineering teams.
+## Automated API Testing Results
+
+The Postman Collection Runner successfully executed
+three API requests with five automated tests.
+
+- Total tests: 5
+- Passed: 5
+- Failed: 0
+- Errors: 0
+- Success rate: 100%
+
+![Postman Test Results](Postman-Test-Results.png)
 
 ## Disclaimer
 
