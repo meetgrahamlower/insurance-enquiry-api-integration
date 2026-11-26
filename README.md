@@ -1,5 +1,9 @@
 # Insurance Enquiry API Integration
 
+## Quick Start Guide
+
+New to this API integration? Follow the [Quick Start Guide](QUICKSTART.md) to make your first API request, test authentication and troubleshoot common errors.
+
 ## Project Overview
 
 A Python-based demonstration of how an insurance enquiry
