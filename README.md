@@ -4,6 +4,10 @@
 
 New to this API integration? Follow the [Quick Start Guide](QUICKSTART.md) to make your first API request, test authentication and troubleshoot common errors.
 
+## API Troubleshooting Guide
+
+Experiencing integration issues? Follow the [API Troubleshooting Guide](TROUBLESHOOTING.md) to diagnose common API errors, authentication failures, rate limits and server errors.
+
 ## Project Overview
 
 A Python-based demonstration of how an insurance enquiry
