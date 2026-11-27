@@ -256,6 +256,23 @@ These scenarios use the httpbin demonstration API to simulate HTTP error respons
 
 For further guidance, see the [API Troubleshooting Guide](./TROUBLESHOOTING.md).
 
+#### Collection Portability Verification
+
+The troubleshooting collection was downloaded directly from GitHub and imported into Postman as a separate collection.
+
+The collection was executed without a configured Postman environment.
+
+Results:
+
+- Total automated tests: 3
+- Passed: 3
+- Failed: 0
+- Errors: 0
+
+This confirms that the distributed troubleshooting collection can be imported and executed without relying on the original Postman environment.
+
+[View Postman Portability Test Results](./Postman-Portability-Test-Results.png)
+
 ### ModuleNotFoundError
 
 Check that the virtual environment is active
