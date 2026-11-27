@@ -231,6 +231,31 @@ demonstration insurance enquiry endpoint.
 
 ## Troubleshooting
 
+### Postman Troubleshooting Collection
+
+A reusable Postman collection is available to help customers and integration partners practise identifying and diagnosing common API errors.
+
+[Download the Postman Troubleshooting Collection](./API-Troubleshooting-Scenarios.postman_collection.json)
+
+#### How to use the collection
+
+1. Open the collection link on GitHub.
+2. Download the JSON file using the download button.
+3. Open Postman.
+4. Select Import.
+5. Select the downloaded JSON file.
+6. Run the collection using the Postman Collection Runner.
+
+The collection includes automated tests for:
+
+- 404 — Not Found
+- 500 — Internal Server Error
+- 429 — Too Many Requests
+
+These scenarios use the httpbin demonstration API to simulate HTTP error responses. No production credentials or customer data are required.
+
+For further guidance, see the [API Troubleshooting Guide](./TROUBLESHOOTING.md).
+
 ### ModuleNotFoundError
 
 Check that the virtual environment is active
