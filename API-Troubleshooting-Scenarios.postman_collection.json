@@ -1,0 +1,104 @@
+{
+  "info": {
+    "_postman_id": "c02dc59b-5000-4b62-9e1f-2877d854bb24",
+    "name": "API Troubleshooting Scenarios",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "60397185",
+    "_collection_link": "https://go.postman.co/collection/60397185-c02dc59b-5000-4b62-9e1f-2877d854bb24?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "404 - Endpoint Not Found",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"API returns 404 Not Found\", function () {\r\n    pm.response.to.have.status(404);\r\n});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://httpbin.org/status/404",
+          "protocol": "https",
+          "host": [
+            "httpbin",
+            "org"
+          ],
+          "path": [
+            "status",
+            "404"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "500 - Internal Server Error",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"API returns 500 Internal Server Error\", function () {\r\n    pm.response.to.have.status(500);\r\n});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://httpbin.org/status/500",
+          "protocol": "https",
+          "host": [
+            "httpbin",
+            "org"
+          ],
+          "path": [
+            "status",
+            "500"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "429 - Too Many Requests",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"API returns 429 Too Many Requests\", function () {\r\n    pm.response.to.have.status(429);\r\n});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://httpbin.org/status/429",
+          "protocol": "https",
+          "host": [
+            "httpbin",
+            "org"
+          ],
+          "path": [
+            "status",
+            "429"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
